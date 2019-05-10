@@ -14,9 +14,9 @@ For general questions about the SysMalVac study, please contact <gemma.moncunill
 All the scripts necessary to run the analysis are provided within this repository. The procedures involve many enrichment analyses. Most processes were run with a local SGE cluster at [IRB Barcelona](http://irbbarcelona.org). The main script to set up jobs is `./setupArrayJob.py`. We provide a [Singularity](https://www.sylabs.io/docs/) image containing the necessary dependencies. The folder contains Python 2.7 (`*.py`), IPython Notebooks (`*.ipynb`) and R-package (`*.R`) scripts. Scripts are prepared to run with Linux systems.
 
 This repository is provided to ensure data transparency. The outcome of the scripts is conveniently provided as compressed files. To complete the full repository in your home directories, please download the corresponding files from Figshare and uncompress them inside the cloned repository folder:
-* [data.tar.gz]()
-* [sysmalvac_results.tar.gz]()
-* [sysmalvac_results_wgcna.tar.gz]()
+* [data.tar.gz](https://figshare.com/s/d5809751a105ad46896e)
+* [sysmalvac_results.tar.gz](https://figshare.com/s/21430e5871268fcde722)
+* [sysmalvac_results_wgcna.tar.gz](https://figshare.com/s/41853d093275ba2391bf)
 
 ## Guide through the scripts
 
