@@ -1,9 +1,9 @@
-# Enrichment analysis of SysMalVac results
+# Enrichment analysis of SysMalVac gene expression measurements
 
-This folder structure contains all the scripts and data used to produce the enrichment analysis of Moncunill et al. (2019) manuscript.
+This folder structure contains all the scripts used to produce the enrichment analysis of Moncunill et al. (2019) manuscript.
 
-* Input data, intermediate data and a raw version of the results (together with all the necessary scripts) can be downloaded from Figshare: [sysmalvac_enrichment_scripts.tar.gz]() file.
-* Final enrichment results can be downloaded from Figshare: [sysmalvac_deliverable.zip](https://figshare.com/s/cd96f43063f2ab2c3e5d) file.
+* Input data, intermediate data and a raw version of the results can be downloaded from Figshare: [data](), [intermediate results 1]() and [intermediate_results 2]().
+* Final enrichment results can be downloaded from Figshare, too: [sysmalvac_deliverable.zip](https://figshare.com/s/cd96f43063f2ab2c3e5d) file.
 * An even more succint version of the data is provided in the manuscript as Supplementary Data in the manuscript.
 
 For specific questions about the scripts, please send an email to <miquel.duran@irbbarcelona.org>.
@@ -11,7 +11,12 @@ For general questions about the SysMalVac study, please contact <gemma.moncunill
 
 ## Specifications
 
-Scripts and necessary data to run them can be unzipped from the `sysmalvac_enrichment_scripts.tar.gz` file. The procedures involve many enrichment analyses. Most processes were run with a local SGE cluster at [IRB Barcelona](http://irbbarcelona.org). The main script to set up jobs is `./setupArrayJob.py`. We provide a [Singularity](https://www.sylabs.io/docs/) image containing the necessary dependencies. The folder contains Python 2.7 (`*.py`), IPython Notebooks (`*.ipynb`) and R-package (`*.R`) scripts. Scripts are prepared to run with Linux systems.
+All the scripts necessary to run the analysis are provided within this repository. The procedures involve many enrichment analyses. Most processes were run with a local SGE cluster at [IRB Barcelona](http://irbbarcelona.org). The main script to set up jobs is `./setupArrayJob.py`. We provide a [Singularity](https://www.sylabs.io/docs/) image containing the necessary dependencies. The folder contains Python 2.7 (`*.py`), IPython Notebooks (`*.ipynb`) and R-package (`*.R`) scripts. Scripts are prepared to run with Linux systems.
+
+This repository is provided to ensure data transparency. The outcome of the scripts is conveniently provided as compressed files. To complete the full repository in your home directories, please download the corresponding files from Figshare and uncompress them inside the cloned repository folder:
+* [data.tar.gz]()
+* [sysmalvac_results.tar.gz]()
+* [sysmalvac_results_wgcna.tar.gz]()
 
 ## Guide through the scripts
 
@@ -31,6 +36,3 @@ Scripts and necessary data to run them can be unzipped from the `sysmalvac_enric
    * `summarize-wgcna.ipynb` produces a summary table of the WGCNA enrichment results.
 
 For convenience, we manually assembled a deliverable (`sysmalvac_deliverable.zip`) containing the relevant input data, conventional enrichment results (`sysmalvac_diff_expr`) and WGCNA enrichment results (`sysmalvac_wgcna`).
-
-
-
