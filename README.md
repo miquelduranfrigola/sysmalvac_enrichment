@@ -2,7 +2,7 @@
 
 This folder structure contains all the scripts used to produce the enrichment analysis of Moncunill et al. (2019) manuscript.
 
-* Input data, intermediate data and a raw version of the results can be downloaded from Figshare: [data](), [intermediate results 1]() and [intermediate_results 2]().
+* Input data, intermediate data and a raw version of the results can be downloaded from Figshare: [data](), [intermediate results 1]() and [intermediate results 2]() files.
 * Final enrichment results can be downloaded from Figshare, too: [sysmalvac_deliverable.zip](https://figshare.com/s/cd96f43063f2ab2c3e5d) file.
 * An even more succint version of the data is provided in the manuscript as Supplementary Data in the manuscript.
 
@@ -21,7 +21,7 @@ This repository is provided to ensure data transparency. The outcome of the scri
 ## Guide through the scripts
 
 1. The `Parsing.ipynb` notebook was used to provide some gene mappings, given the differential gene expression analysis. Input data for the scripts below is provided as `./data`.
-2. SGE scripts are denoted by a `_` before the script name. At IRB, queueing systems are called `all.q` and `fast.q`. This should be edited if another cluster is used.
+2. SGE scripts are denoted by a `_` before the script name. At IRB, queueing systems are called `all.q` and `fast.q`. This should be edited at the end of the scripts if another cluster is used.
    * `_enrichment.py` handles the [GSEA](http://software.broadinstitute.org/gsea/index.jsp) analysis against modules and gene sets.
    * `_enrichr.py` handles the [EnrichR](https://amp.pharm.mssm.edu/Enrichr/) analysis.
    * `_enrichment_wgcna.py` handles the [GSEA](http://software.broadinstitute.org/gsea/index.jsp) analysis based on co-expression ([WGCNA](https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/)) analysis (see below).
