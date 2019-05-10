@@ -19,7 +19,7 @@ Scripts and necessary data to run them can be unzipped from the `sysmalvac_enric
 2. SGE scripts are denoted by a `_` before the script name. At IRB, queueing systems are called `all.q` and `fast.q`. This should be edited if another cluster is used.
    * `_enrichment.py` handles the [GSEA](http://software.broadinstitute.org/gsea/index.jsp) analysis against modules and gene sets.
    * `_enrichr.py` handles the [EnrichR](https://amp.pharm.mssm.edu/Enrichr/) analysis.
-   * `_enrichment_wgcna.py` handles the [GSEA](http://software.broadinstitute.org/gsea/index.jsp) analysis based on co-expression (WGCNA) analysis (see below).
+   * `_enrichment_wgcna.py` handles the [GSEA](http://software.broadinstitute.org/gsea/index.jsp) analysis based on co-expression ([WGCNA](https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/)) analysis (see below).
 3. Locally-run `R` scripts. These are light-computation scripts that do not require SGE computation.
    * `wgcna.R` performs WGCNA analysis based on the [DCGL](https://cran.r-project.org/web/packages/DCGL/index.html) package.
    * `camera_and_tmod.R` performs Camera and TMod analyses to complement GSEA.
