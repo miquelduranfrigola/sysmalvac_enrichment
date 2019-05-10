@@ -3,7 +3,7 @@
 This folder structure contains all the scripts and data used to produce the enrichment analysis of Moncunill et al. (2019) manuscript.
 
 * Input data, intermediate data and a raw version of the results (together with all the necessary scripts) can be downloaded from Figshare: [sysmalvac_enrichment_scripts.tar.gz]() file.
-* Final enrichment results can be downloaded from Figshare: [sysmalvac_deliverable.zip]() file.
+* Final enrichment results can be downloaded from Figshare: [sysmalvac_deliverable.zip](https://figshare.com/s/cd96f43063f2ab2c3e5d) file.
 * An even more succint version of the data is provided in the manuscript as Supplementary Data in the manuscript.
 
 For specific questions about the scripts, please send an email to <miquel.duran@irbbarcelona.org>.
